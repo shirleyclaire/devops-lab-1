@@ -1,0 +1,12 @@
+name: My Assignment Action
+
+on:
+  workflow_dispatch: # This allows us to trigger it manually
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      # This is the step the autograder is looking for!
+      - name: 23f2005323@ds.study.iitm.ac.in
+        run: echo "Hello, world! The assignment is done."
